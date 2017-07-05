@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 require_relative '../db/migrate/01_create_students'
 require_relative '../db/migrate/02_add_grade_and_birthdate_to_students'
-
+__END__
 describe 'student' do
   before :each do
     sql = "DROP TABLE IF EXISTS students"
